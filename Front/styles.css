@@ -1,0 +1,65 @@
+.seconddiv > .p1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: larger;
+}
+.seconddiv > .p2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.seconddiv{
+    display: flex;
+    flex-direction: column;
+    height: 150px;
+    padding-top: 30px;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    margin-bottom: 20px;
+}
+
+.firstdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+img{
+    height: 200px;
+    width: 300px;
+    display: inline-block;
+    border-radius: 15%;
+}
+#div1{
+
+    display: flex;
+    flex-flow: row;
+    /* background-color: #000000; */
+    justify-content: space-evenly;
+    font-weight: bolder;
+}
+
+#div2{
+    height: 200px;
+    width: 300px;
+    background-color: #3a3a3f;
+    border-radius: 15%;
+    text-align: center;
+}
+
+a{
+    color: aliceblue;
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+    top: 40%;
+}
+ 
+.layoutdiv{
+    padding: 60px;
+}
